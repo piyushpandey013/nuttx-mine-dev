@@ -1,0 +1,1021 @@
+ esp32s2-saola-1:spiflash
+  esp32s2-saola-1:buttons
+  esp32s2-saola-1:watchdog
+  esp32s2-saola-1:mcuboot_update_agent
+  esp32s2-saola-1:qencoder
+  esp32s2-saola-1:rtc
+  esp32s2-saola-1:wifi
+  esp32s2-saola-1:temperature_sensor
+  esp32s2-saola-1:efuse
+  esp32s2-saola-1:timer
+  esp32s2-saola-1:rmt
+  esp32s2-saola-1:ostest
+  esp32s2-saola-1:pm
+  esp32s2-saola-1:sta_softap
+  esp32s2-saola-1:audio
+  esp32s2-saola-1:adc
+  esp32s2-saola-1:twai
+  esp32s2-saola-1:sotest
+  esp32s2-saola-1:pwm
+  esp32s2-saola-1:sdm
+  esp32s2-saola-1:crypto
+  esp32s2-saola-1:romfs
+  esp32s2-saola-1:i2schar
+  esp32s2-saola-1:random
+  esp32s2-saola-1:oneshot
+  esp32s2-saola-1:nsh
+  esp32s2-saola-1:ulp
+  esp32s2-saola-1:gpio
+  esp32s3-xiao:usbnsh
+  esp32s3-xiao:combo
+  esp32s3-lcd-ev:buttons
+  esp32s3-lcd-ev:lcd
+  esp32s3-lcd-ev:audio
+  esp32s3-lcd-ev:lvgl
+  esp32s3-lcd-ev:ws2812
+  esp32s3-lcd-ev:nsh
+  esp32s3-m5-cardputer:fb
+  esp32s3-m5-cardputer:lvglterm
+  esp32s3-m5-cardputer:wifi
+  esp32s3-m5-cardputer:lvgl
+  esp32s3-m5-cardputer:sdcard
+  esp32s3-m5-cardputer:softap
+  esp32s3-m5-cardputer:nsh
+  esp32s3-eye:i2c
+  esp32s3-eye:usbnsh
+  esp32s3-eye:lcd
+  esp32s3-eye:wifi
+  esp32s3-eye:nsh
+  esp32s3-eye:gpio
+  esp32s3-lhcbit:usbnsh
+  esp32s3-devkit:i2c
+  esp32s3-devkit:nxlooper
+  esp32s3-devkit:capture
+  esp32s3-devkit:psram_usrheap
+  esp32s3-devkit:mcuboot_nsh
+  esp32s3-devkit:cxx
+  esp32s3-devkit:sdmmc_spi
+  esp32s3-devkit:fastboot_usb
+  esp32s3-devkit:spi
+  esp32s3-devkit:stack
+  esp32s3-devkit:motor
+  esp32s3-devkit:coremark
+  esp32s3-devkit:blewifi
+  esp32s3-devkit:spiflash
+  esp32s3-devkit:fastboot
+  esp32s3-devkit:buttons
+  esp32s3-devkit:watchdog
+  esp32s3-devkit:ble
+  esp32s3-devkit:psram_octal
+  esp32s3-devkit:mcuboot_update_agent
+  esp32s3-devkit:usbnsh
+  esp32s3-devkit:qencoder
+  esp32s3-devkit:rtc
+  esp32s3-devkit:usbmsc
+  esp32s3-devkit:mbedtls
+  esp32s3-devkit:adb
+  esp32s3-devkit:wifi
+  esp32s3-devkit:temperature_sensor
+  esp32s3-devkit:spislv
+  esp32s3-devkit:efuse
+  esp32s3-devkit:timer
+  esp32s3-devkit:fastboot_tcp
+  esp32s3-devkit:smp
+  esp32s3-devkit:qemu_toywasm
+  esp32s3-devkit:rmt
+  esp32s3-devkit:toywasm
+  esp32s3-devkit:ksta_softap
+  esp32s3-devkit:ostest
+  esp32s3-devkit:pm
+  esp32s3-devkit:eth_lan9250
+  esp32s3-devkit:sta_softap
+  esp32s3-devkit:audio
+  esp32s3-devkit:adc
+  esp32s3-devkit:twai
+  esp32s3-devkit:sotest
+  esp32s3-devkit:elf
+  esp32s3-devkit:txtable
+  esp32s3-devkit:pwm
+  esp32s3-devkit:knsh
+  esp32s3-devkit:sdm
+  esp32s3-devkit:python
+  esp32s3-devkit:usb_device
+  esp32s3-devkit:crypto
+  esp32s3-devkit:romfs
+  esp32s3-devkit:qemu_debug
+  esp32s3-devkit:i2schar
+  esp32s3-devkit:random
+  esp32s3-devkit:tickless
+  esp32s3-devkit:qemu_openeth
+  esp32s3-devkit:oneshot
+  esp32s3-devkit:nsh
+  esp32s3-devkit:ulp
+  esp32s3-devkit:psram_quad
+  esp32s3-devkit:gpio
+  esp32s3-devkit:sdmmc
+  esp32s3-korvo-2:audio
+  esp32s3-korvo-2:rtptools
+  esp32s3-korvo-2:nsh
+  esp32s3-korvo-2:sdmmc
+  esp32s3-box:buttons
+  esp32s3-box:lvgl-3
+  esp32s3-box:touchscreen
+  esp32s3-box:lvgl
+  esp32s3-box:nsh
+  lckfb-szpi-esp32s3:gc0308
+  lckfb-szpi-esp32s3:fastboot_usb
+  lckfb-szpi-esp32s3:fastboot
+  lckfb-szpi-esp32s3:es7210
+  lckfb-szpi-esp32s3:lcd
+  lckfb-szpi-esp32s3:adb
+  lckfb-szpi-esp32s3:fastboot_tcp
+  lckfb-szpi-esp32s3:psram
+  lckfb-szpi-esp32s3:pca9557
+  lckfb-szpi-esp32s3:qmi8658
+  lckfb-szpi-esp32s3:txtable
+  lckfb-szpi-esp32s3:lvgl
+  lckfb-szpi-esp32s3:pwm
+  lckfb-szpi-esp32s3:usb_device
+  lckfb-szpi-esp32s3:vncviewer
+  lckfb-szpi-esp32s3:uvc
+  lckfb-szpi-esp32s3:camera
+  lckfb-szpi-esp32s3:nsh
+  lckfb-szpi-esp32s3:gpio
+  lckfb-szpi-esp32s3:sdmmc
+  esp32s3-meadow:usbnsh
+  esp32s3-meadow:nsh
+  esp32s3-8048S043:i2c
+  esp32s3-8048S043:spi
+  esp32s3-8048S043:lcd
+  esp32s3-8048S043:touchscreen
+  esp32s3-8048S043:nsh
+  esp32s3-8048S043:gpio
+  esp32s3-8048S043:sdmmc
+  esp32s3-ws-lcd128:touch-lvgl
+  esp32s3-ws-lcd128:notouch-lvgl
+  esp32s3-ws-lcd128:coremark
+  esp32s3-ws-lcd128:watchdog
+  esp32s3-ws-lcd128:imu-qmi8658
+  esp32s3-ws-lcd128:ostest
+  esp32s3-ws-lcd128:nsh
+  esp32-2432S028:lvgl
+  esp32-2432S028:nsh
+  esp32-sparrow-kit:ble
+  esp32-sparrow-kit:wifi
+  esp32-sparrow-kit:mqttc
+  esp32-sparrow-kit:nsh
+  esp32-audio-kit:wifi
+  esp32-audio-kit:audio
+  esp32-audio-kit:nsh
+  esp32-ethernet-kit:buttons
+  esp32-ethernet-kit:ethernet
+  esp32-ethernet-kit:autopm
+  esp32-ethernet-kit:rtc
+  esp32-ethernet-kit:wifi
+  esp32-ethernet-kit:oneshot
+  esp32-ethernet-kit:nsh
+  ttgo_t_display_esp32:lvgl_lcd
+  ttgo_t_display_esp32:lvgl_fb
+  ttgo_t_display_esp32:nsh
+  ttgo_lora_esp32:sx127x
+  ttgo_lora_esp32:nsh
+  esp32-lyrat:sdmmc_spi
+  esp32-lyrat:buttons
+  esp32-lyrat:wifi
+  esp32-lyrat:audio
+  esp32-lyrat:nxrecorder
+  esp32-lyrat:rtptools
+  esp32-lyrat:nsh
+  esp32-wrover-kit:nx
+  esp32-wrover-kit:leds
+  esp32-wrover-kit:sdmmc_spi
+  esp32-wrover-kit:buttons
+  esp32-wrover-kit:lcd1602
+  esp32-wrover-kit:autopm
+  esp32-wrover-kit:rtc
+  esp32-wrover-kit:wifi
+  esp32-wrover-kit:lua
+  esp32-wrover-kit:lvgl
+  esp32-wrover-kit:bmp180
+  esp32-wrover-kit:oneshot
+  esp32-wrover-kit:nsh
+  esp32-wrover-kit:gpio
+  ttgo_eink5_v2:fb
+  heltec_wifi_lora32:sx1276
+  heltec_wifi_lora32:nsh
+  esp32-pico-kit:nsh
+  lilygo_tbeam_lora_gps:gps
+  lilygo_tbeam_lora_gps:sx127x
+  lilygo_tbeam_lora_gps:nsh
+  esp32-devkitc:i2c
+  esp32-devkitc:nxlooper
+  esp32-devkitc:capture
+  esp32-devkitc:psram_usrheap
+  esp32-devkitc:dac
+  esp32-devkitc:leds
+  esp32-devkitc:nxdiag
+  esp32-devkitc:ms5611
+  esp32-devkitc:mcuboot_nsh
+  esp32-devkitc:cxx
+  esp32-devkitc:sdmmc_spi
+  esp32-devkitc:wifishare
+  esp32-devkitc:spi
+  esp32-devkitc:wifi_smp
+  esp32-devkitc:motor
+  esp32-devkitc:coremark
+  esp32-devkitc:blewifi
+  esp32-devkitc:spiflash
+  esp32-devkitc:match4
+  esp32-devkitc:buttons
+  esp32-devkitc:watchdog
+  esp32-devkitc:ble
+  esp32-devkitc:autopm
+  esp32-devkitc:mcuboot_update_agent
+  esp32-devkitc:qencoder
+  esp32-devkitc:rtc
+  esp32-devkitc:mcuboot_slot_confirm
+  esp32-devkitc:wamr_wasi_debug
+  esp32-devkitc:watcher
+  esp32-devkitc:modbus
+  esp32-devkitc:max6675
+  esp32-devkitc:wifi
+  esp32-devkitc:efuse
+  esp32-devkitc:timer
+  esp32-devkitc:smp
+  esp32-devkitc:rmt
+  esp32-devkitc:nvblk
+  esp32-devkitc:psram
+  esp32-devkitc:ostest
+  esp32-devkitc:mcp2515
+  esp32-devkitc:snake
+  esp32-devkitc:pm
+  esp32-devkitc:sta_softap
+  esp32-devkitc:audio
+  esp32-devkitc:adc
+  esp32-devkitc:twai
+  esp32-devkitc:sotest
+  esp32-devkitc:elf
+  esp32-devkitc:espnow
+  esp32-devkitc:pwm
+  esp32-devkitc:brickmatch
+  esp32-devkitc:knsh
+  esp32-devkitc:sdm
+  esp32-devkitc:softap
+  esp32-devkitc:crypto
+  esp32-devkitc:romfs
+  esp32-devkitc:module
+  esp32-devkitc:mqttc
+  esp32-devkitc:i2schar
+  esp32-devkitc:random
+  esp32-devkitc:tickless
+  esp32-devkitc:qemu_openeth
+  esp32-devkitc:bmp280
+  esp32-devkitc:oneshot
+  esp32-devkitc:nsh
+  esp32-devkitc:wifinsh
+  esp32-devkitc:gpio
+  qemu-i486:ostest
+  qemu-i486:nsh
+  qemu-i486:vga_fb
+  raspberrypi-pico-2-rv:usbnsh-smp
+  raspberrypi-pico-2-rv:usbnsh
+  raspberrypi-pico-2-rv:nsh
+  raspberrypi-pico-2-rv:nsh-smp
+  rv32m1-vega:buttons
+  rv32m1-vega:nsh-itcm
+  rv32m1-vega:nsh
+  esp32c6-devkitc:i2c
+  esp32c6-devkitc:capture
+  esp32c6-devkitc:mcuboot_nsh
+  esp32c6-devkitc:sdmmc_spi
+  esp32c6-devkitc:spi
+  esp32c6-devkitc:motor
+  esp32c6-devkitc:coremark
+  esp32c6-devkitc:spiflash
+  esp32c6-devkitc:buttons
+  esp32c6-devkitc:watchdog
+  esp32c6-devkitc:ble
+  esp32c6-devkitc:autopm
+  esp32c6-devkitc:mcuboot_update_agent
+  esp32c6-devkitc:qencoder
+  esp32c6-devkitc:rtc
+  esp32c6-devkitc:wifi
+  esp32c6-devkitc:temperature_sensor
+  esp32c6-devkitc:spislv
+  esp32c6-devkitc:efuse
+  esp32c6-devkitc:rmt
+  esp32c6-devkitc:ostest
+  esp32c6-devkitc:pm
+  esp32c6-devkitc:sta_softap
+  esp32c6-devkitc:adc
+  esp32c6-devkitc:twai
+  esp32c6-devkitc:timers
+  esp32c6-devkitc:pwm
+  esp32c6-devkitc:usbconsole
+  esp32c6-devkitc:sdm
+  esp32c6-devkitc:bmp180
+  esp32c6-devkitc:crypto
+  esp32c6-devkitc:romfs
+  esp32c6-devkitc:i2schar
+  esp32c6-devkitc:random
+  esp32c6-devkitc:mpu60x0
+  esp32c6-devkitc:tickless
+  esp32c6-devkitc:oa_tc6
+  esp32c6-devkitc:nsh
+  esp32c6-devkitc:ulp
+  esp32c6-devkitc:gpio
+  esp32c6-devkitm:i2c
+  esp32c6-devkitm:mcuboot_nsh
+  esp32c6-devkitm:sdmmc_spi
+  esp32c6-devkitm:spi
+  esp32c6-devkitm:spiflash
+  esp32c6-devkitm:buttons
+  esp32c6-devkitm:watchdog
+  esp32c6-devkitm:rtc
+  esp32c6-devkitm:wifi
+  esp32c6-devkitm:spislv
+  esp32c6-devkitm:efuse
+  esp32c6-devkitm:rmt
+  esp32c6-devkitm:ostest
+  esp32c6-devkitm:sta_softap
+  esp32c6-devkitm:twai
+  esp32c6-devkitm:timers
+  esp32c6-devkitm:pwm
+  esp32c6-devkitm:usbconsole
+  esp32c6-devkitm:bmp180
+  esp32c6-devkitm:romfs
+  esp32c6-devkitm:i2schar
+  esp32c6-devkitm:random
+  esp32c6-devkitm:tickless
+  esp32c6-devkitm:oa_tc6
+  esp32c6-devkitm:nsh
+  esp32c6-devkitm:gpio
+  esp32c6-xiao:usbnsh
+  esp32c6-xiao:wifi
+  esp32c6-xiao:nsh
+  esp32c6-xiao:gpio
+  star64:nsh
+  milkv_duos:nsh
+  smartl-c906:fpu
+  smartl-c906:sotest
+  smartl-c906:elf
+  smartl-c906:knsh
+  smartl-c906:module
+  smartl-c906:nsh
+  ox64:spi
+  ox64:timer
+  ox64:adc
+  ox64:nsh
+  rv-virt:fb
+  rv-virt:lvgl64_vector
+  rv-virt:leds
+  rv-virt:leds64_rust
+  rv-virt:libcxx
+  rv-virt:nsbi64
+  rv-virt:smp64
+  rv-virt:knetnsh64_smp
+  rv-virt:netnsh
+  rv-virt:virt_nsh
+  rv-virt:libcxx64
+  rv-virt:citest64
+  rv-virt:flats
+  rv-virt:ksmp64
+  rv-virt:fb64
+  rv-virt:kfb64
+  rv-virt:knsh_romfs
+  rv-virt:flats64
+  rv-virt:smp
+  rv-virt:leds64_zig
+  rv-virt:knetnsh64
+  rv-virt:netnsh64
+  rv-virt:netnsh_smp
+  rv-virt:leds64
+  rv-virt:netnsh64_smp
+  rv-virt:elf
+  rv-virt:knsh
+  rv-virt:python
+  rv-virt:nsh64
+  rv-virt:pnsh64
+  rv-virt:nsbi
+  rv-virt:pnsh
+  rv-virt:knsh64
+  rv-virt:nsh
+  rv-virt:knsh64_paging
+  rv-virt:citest
+  rv-virt:knsh_paging
+  canmv230:master
+  canmv230:remote
+  canmv230:knsh
+  canmv230:nsbi
+  canmv230:pnsh
+  canmv230:nsh
+  esp32c3-xiao:ble
+  esp32c3-xiao:nimble
+  esp32c3-xiao:usbnsh
+  esp32c3-xiao:wifi
+  esp32c3-xiao:smartfs
+  esp32c3-xiao:nsh
+  esp32c3-xiao:gpio
+  esp32c3-devkit:i2c
+  esp32c3-devkit:mcuboot_nsh
+  esp32c3-devkit:sdmmc_spi
+  esp32c3-devkit:spi
+  esp32c3-devkit:spiflash
+  esp32c3-devkit:rng90
+  esp32c3-devkit:buttons
+  esp32c3-devkit:watchdog
+  esp32c3-devkit:ble
+  esp32c3-devkit:autopm
+  esp32c3-devkit:nimble
+  esp32c3-devkit:mcuboot_update_agent
+  esp32c3-devkit:rtc
+  esp32c3-devkit:wifi
+  esp32c3-devkit:temperature_sensor
+  esp32c3-devkit:efuse
+  esp32c3-devkit:rmt
+  esp32c3-devkit:ostest
+  esp32c3-devkit:pm
+  esp32c3-devkit:sta_softap
+  esp32c3-devkit:adc
+  esp32c3-devkit:twai
+  esp32c3-devkit:timers
+  esp32c3-devkit:pwm
+  esp32c3-devkit:usbconsole
+  esp32c3-devkit:sdm
+  esp32c3-devkit:bmp180
+  esp32c3-devkit:crypto
+  esp32c3-devkit:romfs
+  esp32c3-devkit:i2schar
+  esp32c3-devkit:random
+  esp32c3-devkit:tickless
+  esp32c3-devkit:nsh
+  esp32c3-devkit:gpio
+  esp32-c3-zero:jumbo
+  esp32-c3-zero:usbnsh
+  esp32-c3-zero:wifi
+  esp32-c3-zero:sta_softap
+  esp32-c3-zero:nsh
+  bl602evb:i2c
+  bl602evb:spi
+  bl602evb:spiflash
+  bl602evb:fpu
+  bl602evb:wifi
+  bl602evb:timer
+  bl602evb:dma
+  bl602evb:elf
+  bl602evb:nsh
+  bl602evb:gpio
+  hpm6360evk:nsh
+  arty_a7:nsh-vexii
+  arty_a7:netnsh
+  arty_a7:knsh-tickless
+  arty_a7:pwm
+  arty_a7:knsh
+  arty_a7:nsh-tickless
+  arty_a7:nsh
+  arty_a7:sdmmc
+  starpro64:nsh
+  maix-bit:knsh_smp
+  maix-bit:smp2
+  maix-bit:kostest
+  maix-bit:smp
+  maix-bit:elf
+  maix-bit:posix_spawn
+  maix-bit:knsh
+  maix-bit:module
+  maix-bit:nsh
+  gd32vw553k-start:wapi
+  gd32vw553k-start:littlefs
+  gd32vw553k-start:periph
+  gd32vw553k-start:ble
+  gd32vw553k-start:sht3x
+  gd32vw553k-start:ostest
+  gd32vw553k-start:sta_softap
+  gd32vw553k-start:adc
+  gd32vw553k-start:pwm
+  gd32vw553k-start:sdcard
+  gd32vw553k-start:nsh
+  esp32h2-devkit:i2c
+  esp32h2-devkit:capture
+  esp32h2-devkit:mcuboot_nsh
+  esp32h2-devkit:sdmmc_spi
+  esp32h2-devkit:spi
+  esp32h2-devkit:motor
+  esp32h2-devkit:spiflash
+  esp32h2-devkit:buttons
+  esp32h2-devkit:watchdog
+  esp32h2-devkit:ble
+  esp32h2-devkit:autopm
+  esp32h2-devkit:qencoder
+  esp32h2-devkit:rtc
+  esp32h2-devkit:temperature_sensor
+  esp32h2-devkit:efuse
+  esp32h2-devkit:rmt
+  esp32h2-devkit:ostest
+  esp32h2-devkit:pm
+  esp32h2-devkit:adc
+  esp32h2-devkit:twai
+  esp32h2-devkit:timers
+  esp32h2-devkit:pwm
+  esp32h2-devkit:usbconsole
+  esp32h2-devkit:sdm
+  esp32h2-devkit:bmp180
+  esp32h2-devkit:crypto
+  esp32h2-devkit:romfs
+  esp32h2-devkit:i2schar
+  esp32h2-devkit:random
+  esp32h2-devkit:tickless
+  esp32h2-devkit:nsh
+  esp32h2-devkit:gpio
+  esp32h2-devkit:analog_cmpr
+  hifive1-revb:nsh
+  hpm6750evk2:nsh
+  esp32c3-legacy-devkit:nvcfgdata
+  esp32c3-legacy-devkit:cxx
+  esp32c3-legacy-devkit:coremark
+  esp32c3-legacy-devkit:spiflash
+  esp32c3-legacy-devkit:watchdog
+  esp32c3-legacy-devkit:ble
+  esp32c3-legacy-devkit:autopm
+  esp32c3-legacy-devkit:rtc
+  esp32c3-legacy-devkit:mcuboot_slot_confirm
+  esp32c3-legacy-devkit:watcher
+  esp32c3-legacy-devkit:wifi
+  esp32c3-legacy-devkit:gdbstub
+  esp32c3-legacy-devkit:efuse
+  esp32c3-legacy-devkit:timer
+  esp32c3-legacy-devkit:ostest
+  esp32c3-legacy-devkit:pm
+  esp32c3-legacy-devkit:sta_softap
+  esp32c3-legacy-devkit:uid
+  esp32c3-legacy-devkit:adc
+  esp32c3-legacy-devkit:twai
+  esp32c3-legacy-devkit:sotest
+  esp32c3-legacy-devkit:elf
+  esp32c3-legacy-devkit:lvgl
+  esp32c3-legacy-devkit:pwm
+  esp32c3-legacy-devkit:usbconsole
+  esp32c3-legacy-devkit:knsh
+  esp32c3-legacy-devkit:bmp180
+  esp32c3-legacy-devkit:crypto
+  esp32c3-legacy-devkit:romfs
+  esp32c3-legacy-devkit:module
+  esp32c3-legacy-devkit:random
+  esp32c3-legacy-devkit:tickless
+  esp32c3-legacy-devkit:oneshot
+  esp32c3-legacy-devkit:nsh
+  esp32c3-legacy-devkit:gpio
+  esp32c3-legacy-devkit-rust-1:brickmatch
+  esp32c3-legacy-devkit-rust-1:nsh
+  esp32p4-pico-wifi-wareshare:spiflash
+  esp32p4-pico-wifi-wareshare:nsh
+  esp32p4-function-ev-board:i2c
+  esp32p4-function-ev-board:capture
+  esp32p4-function-ev-board:psram_usrheap
+  esp32p4-function-ev-board:spi
+  esp32p4-function-ev-board:motor
+  esp32p4-function-ev-board:spiflash
+  esp32p4-function-ev-board:buttons
+  esp32p4-function-ev-board:webpanel
+  esp32p4-function-ev-board:watchdog
+  esp32p4-function-ev-board:ethernet
+  esp32p4-function-ev-board:autopm
+  esp32p4-function-ev-board:qencoder
+  esp32p4-function-ev-board:rtc
+  esp32p4-function-ev-board:temperature_sensor
+  esp32p4-function-ev-board:spislv
+  esp32p4-function-ev-board:efuse
+  esp32p4-function-ev-board:rmt
+  esp32p4-function-ev-board:ostest
+  esp32p4-function-ev-board:pm
+  esp32p4-function-ev-board:adc
+  esp32p4-function-ev-board:twai
+  esp32p4-function-ev-board:timers
+  esp32p4-function-ev-board:pwm
+  esp32p4-function-ev-board:usbconsole
+  esp32p4-function-ev-board:sdm
+  esp32p4-function-ev-board:python
+  esp32p4-function-ev-board:bmp180
+  esp32p4-function-ev-board:crypto
+  esp32p4-function-ev-board:i2schar
+  esp32p4-function-ev-board:random
+  esp32p4-function-ev-board:tickless
+  esp32p4-function-ev-board:nsh
+  esp32p4-function-ev-board:ulp
+  esp32p4-function-ev-board:gpio
+  esp32p4-function-ev-board:analog_cmpr
+  esp32p4-tab5:python
+  esp32p4-tab5:nsh
+  icicle:opensbi
+  icicle:rpmsg-ch2
+  icicle:rpmsg-ch1
+  icicle:rpmsg-sbi
+  icicle:knsh
+  icicle:pnsh
+  icicle:nsh
+  icicle:hwtest
+  m100pfsevp:nsh
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (master) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (master) $ ./tools/configure.sh -l stm32f4discovery:nsh
+  Copy files
+ERROR: Could not find the path to the appdir
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (master) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (master) $ git status
+Refresh index: 100% (26600/26600), done.
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (master) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (master) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (master) $ ./tools/configure.sh -L | less
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (master) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (master) $ ./tools/configure.sh -L | grep stm32f4
+  stm32f401rc-rs485:dac
+  stm32f401rc-rs485:ssd1309
+  stm32f401rc-rs485:hcsr04
+  stm32f401rc-rs485:max7219
+  stm32f401rc-rs485:telnetd
+  stm32f401rc-rs485:lcd1602
+  stm32f401rc-rs485:usbnsh
+  stm32f401rc-rs485:qencoder
+  stm32f401rc-rs485:usbmsc
+  stm32f401rc-rs485:adc
+  stm32f401rc-rs485:rndis
+  stm32f401rc-rs485:modbus_slave
+  stm32f401rc-rs485:modbus_master
+  stm32f401rc-rs485:ws2812
+  stm32f401rc-rs485:sdcard
+  stm32f401rc-rs485:mfrc522
+  stm32f401rc-rs485:lm75
+  stm32f401rc-rs485:bmp280
+  stm32f401rc-rs485:nsh
+  stm32f411e-disco:nsh
+  stm32f429i-disco:fb
+  stm32f429i-disco:stack
+  stm32f429i-disco:highpri
+  stm32f429i-disco:ofloader
+  stm32f429i-disco:usbnsh
+  stm32f429i-disco:lcd
+  stm32f429i-disco:nxwm
+  stm32f429i-disco:extflash
+  stm32f429i-disco:usbmsc
+  stm32f429i-disco:gdbstub
+  stm32f429i-disco:nxhello
+  stm32f429i-disco:adc
+  stm32f429i-disco:lvgl
+  stm32f429i-disco:bootlogo
+  stm32f429i-disco:systemview
+  stm32f429i-disco:nsh
+  stm32f4discovery:nxscope_cdcacm
+  stm32f4discovery:mmcsdspi
+  stm32f4discovery:sbutton
+  stm32f4discovery:rgbled
+  stm32f4discovery:kostest
+  stm32f4discovery:lwl
+  stm32f4discovery:netnsh
+  stm32f4discovery:xen1210
+  stm32f4discovery:composite
+  stm32f4discovery:max7219
+  stm32f4discovery:lcd1602
+  stm32f4discovery:st7567
+  stm32f4discovery:usbnsh
+  stm32f4discovery:nxlines
+  stm32f4discovery:usbmsc
+  stm32f4discovery:adb
+  stm32f4discovery:wifi
+  stm32f4discovery:ipv6
+  stm32f4discovery:mt6816
+  stm32f4discovery:pm
+  stm32f4discovery:st7789
+  stm32f4discovery:audio
+  stm32f4discovery:cxxtest
+  stm32f4discovery:rndis
+  stm32f4discovery:elf
+  stm32f4discovery:ether_w5500
+  stm32f4discovery:sporadic
+  stm32f4discovery:modbus_slave
+  stm32f4discovery:canard
+  stm32f4discovery:cxx-oot-build
+  stm32f4discovery:sensorscope
+  stm32f4discovery:posix_spawn
+  stm32f4discovery:brickmatch
+  stm32f4discovery:max31855
+  stm32f4discovery:testlibcxx
+  stm32f4discovery:mpr121_keypad
+  stm32f4discovery:module
+  stm32f4discovery:nsh
+  stm32f4discovery:pseudoterm
+  mikroe-stm32f4:nx
+  mikroe-stm32f4:kostest
+  mikroe-stm32f4:usbnsh
+  mikroe-stm32f4:nxlines
+  mikroe-stm32f4:fulldemo
+  mikroe-stm32f4:nsh
+  mikroe-stm32f4:nxtext
+  stm32f411-minimum:rgbled
+  stm32f411-minimum:composite
+  stm32f411-minimum:usbmsc
+  stm32f411-minimum:spifsnsh
+  stm32f411-minimum:pwm
+  stm32f411-minimum:nsh
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (master) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (master) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (master) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (master) $ ./tools/configure.sh -l stm32f4discovery:nsh
+No configuration change.
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (master) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (master) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (master) $ ls -al
+total 720
+drwxrwxrwx+ 26 codespace root        4096 Jul 29 00:36 .
+drwxr-xrwx+  5 codespace root        4096 Jul 29 00:32 ..
+-rw-rw-rw-   1 codespace root         897 Jul 29 00:32 .asf.yaml
+-rw-rw-rw-   1 codespace root        9926 Jul 29 00:32 .codespell-ignore-lines
+-rw-rw-rw-   1 codespace root        1105 Jul 29 00:32 .codespellrc
+-rw-rw-rw-   1 codespace codespace   1341 Jul 29 00:36 .config
+-rw-rw-rw-   1 codespace codespace   1313 Jul 29 00:36 .config.backup
+-rw-rw-rw-   1 codespace root         415 Jul 29 00:32 .editorconfig
+drwxrwxrwx+  8 codespace root        4096 Jul 29 00:36 .git
+drwxrwxrwx+  6 codespace root        4096 Jul 29 00:32 .github
+-rw-rw-rw-   1 codespace root         950 Jul 29 00:32 .gitignore
+-rw-rw-rw-   1 codespace root         933 Jul 29 00:32 .gitmessage
+-rw-rw-rw-   1 codespace root         497 Jul 29 00:32 .pre-commit-config.yaml
+-rw-rw-rw-   1 codespace root          97 Jul 29 00:32 .yamllint
+-rw-rw-rw-   1 codespace root        2554 Jul 29 00:32 AUTHORS
+-rw-rw-rw-   1 codespace root       32034 Jul 29 00:32 CMakeLists.txt
+-rw-rw-rw-   1 codespace root       20487 Jul 29 00:32 CONTRIBUTING.md
+drwxrwxrwx+ 20 codespace root        4096 Jul 29 00:32 Documentation
+-rw-rw-rw-   1 codespace root        4051 Jul 29 00:32 INVIOLABLES.md
+-rw-rw-rw-   1 codespace root       71899 Jul 29 00:32 Kconfig
+-rw-rw-rw-   1 codespace root      416309 Jul 29 00:32 LICENSE
+lrwxrwxrwx   1 codespace codespace     89 Jul 29 00:36 Make.defs -> /workspaces/nuttx-mine-dev/tools/../boards/arm/stm32f4/stm32f4discovery/scripts/Make.defs
+-rw-rw-rw-   1 codespace root        1484 Jul 29 00:32 Makefile
+-rw-rw-rw-   1 codespace root        3107 Jul 29 00:32 NOTICE
+-rw-rw-rw-   1 codespace root        2879 Jul 29 00:32 README.md
+-rw-rw-rw-   1 codespace root         750 Jul 29 00:32 ReleaseNotes
+drwxrwxrwx+ 21 codespace root        4096 Jul 29 00:32 arch
+drwxrwxrwx+  2 codespace root        4096 Jul 29 00:32 audio
+drwxrwxrwx+  3 codespace root        4096 Jul 29 00:32 binfmt
+drwxrwxrwx+ 20 codespace root        4096 Jul 29 00:32 boards
+drwxrwxrwx+  2 codespace root        4096 Jul 29 00:32 cmake
+drwxrwxrwx+  2 codespace root        4096 Jul 29 00:32 crypto
+-rw-r--r--   1 codespace codespace   1340 Jul 29 00:36 defconfig
+drwxrwxrwx+ 60 codespace root        4096 Jul 29 00:32 drivers
+drwxrwxrwx+  2 codespace root        4096 Jul 29 00:32 dummy
+drwxrwxrwx+ 32 codespace root        4096 Jul 29 00:32 fs
+drwxrwxrwx+  6 codespace root        4096 Jul 29 00:32 graphics
+drwxrwxrwx+ 12 codespace root        4096 Jul 29 00:32 include
+drwxrwxrwx+  8 codespace root        4096 Jul 29 00:32 libs
+drwxrwxrwx+ 14 codespace root        4096 Jul 29 00:32 mm
+drwxrwxrwx+ 31 codespace root        4096 Jul 29 00:32 net
+drwxrwxrwx+  2 codespace root        4096 Jul 29 00:32 openamp
+drwxrwxrwx+  2 codespace root        4096 Jul 29 00:32 pass1
+drwxrwxrwx+ 24 codespace root        4096 Jul 29 00:32 sched
+drwxrwxrwx+  5 codespace root        4096 Jul 29 00:32 syscall
+drwxrwxrwx+ 24 codespace root        4096 Jul 29 00:32 tools
+drwxrwxrwx+  3 codespace root        4096 Jul 29 00:32 video
+drwxrwxrwx+  5 codespace root        4096 Jul 29 00:32 wireless
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (master) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (master) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (master) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (master) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (master) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (master) $ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (master) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (master) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (master) $ git checkout first_build_test
+error: pathspec 'first_build_test' did not match any file(s) known to git
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (master) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (master) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (master) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (master) $ git checkout -b first_build_test
+Switched to a new branch 'first_build_test'
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ rm .gitignore 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ git status
+On branch first_build_test
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    .gitignore
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .config
+        .config.backup
+        Make.defs
+        defconfig
+
+no changes added to commit (use "git add" and/or "git commit -a")
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ git add .
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ git status
+On branch first_build_test
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .config
+        new file:   .config.backup
+        deleted:    .gitignore
+        new file:   Make.defs
+        new file:   defconfig
+
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ git commit -m "first settings to do in order to proceed for development"
+[first_build_test cd8c70d96c] first settings to do in order to proceed for development
+ 5 files changed, 152 insertions(+), 96 deletions(-)
+ create mode 100644 .config
+ create mode 100644 .config.backup
+ delete mode 100644 .gitignore
+ create mode 120000 Make.defs
+ create mode 100644 defconfig
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ git status
+On branch first_build_test
+nothing to commit, working tree clean
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ git push origin first_build_test 
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.14 KiB | 1.14 MiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 1 local object.
+remote: 
+remote: Create a pull request for 'first_build_test' on GitHub by visiting:
+remote:      https://github.com/piyushpandey013/nuttx-mine-dev/pull/new/first_build_test
+remote: 
+To https://github.com/piyushpandey013/nuttx-mine-dev
+ * [new branch]            first_build_test -> first_build_test
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ git status
+On branch first_build_test
+nothing to commit, working tree clean
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ rm .config
+.config         .config.backup  
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ rm .config
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ ./tools/configure.sh -l stm32f4discovery:nsh
+  Copy files
+ERROR: Could not find the path to the appdir
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ rm .config
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ ./tools/configure.sh -l stm32f4discovery:nsh
+./tools/configure.sh: line 25: piyush: command not found
+/workspaces/nuttx-mine-dev/tools
+  Copy files
+ERROR: Could not find the path to the appdir
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ ./tools/configure.sh -l stm32f4discovery:nsh
+piyush"${WD}"
+No configuration change.
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ rm .config
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ ./tools/configure.sh -l stm32f4discovery:nsh
+piyush"${WD}"
+  Copy files
+ERROR: Could not find the path to the appdir
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ ./tools/configure.sh -l stm32f4discovery:nsh
+./tools/configure.sh: line 25: piyush/workspaces/nuttx-mine-dev/tools: No such file or directory
+
+No configuration change.
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ ./tools/configure.sh -l stm32f4discovery:nsh
+./tools/configure.sh: line 25: piyush: command not found
+
+No configuration change.
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ ./tools/configure.sh -l stm32f4discovery:nsh
+./tools/configure.sh: line 25: piyush----/workspaces/nuttx-mine-dev/tools: No such file or directory
+
+No configuration change.
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ ./tools/configure.sh -l stm32f4discovery:nsh
+./tools/configure.sh: line 26: /workspaces/nuttx-mine-dev/tools: Is a directory
+
+No configuration change.
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ rm .config
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ ./tools/configure.sh -l stm32f4discovery:nsh
+./tools/configure.sh: line 26: /workspaces/nuttx-mine-dev/tools: Is a directory
+
+  Copy files
+ERROR: Could not find the path to the appdir
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ rm .config
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ ./tools/configure.sh -l stm32f4discovery:nsh
+./tools/configure.sh: line 26: /workspaces/nuttx-mine-dev/tools: Is a directory
+
+  Copy files
+ERROR: Could not find the path to the appdir
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ ./tools/configure.sh -l stm32f4discovery:nsh
+./tools/configure.sh: line 26: /workspaces/nuttx-mine-dev/tools: Is a directory
+
+No configuration change.
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ rm .config
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ ./tools/configure.sh -l stm32f4discovery:nsh
+./tools/configure.sh: line 26: /workspaces/nuttx-mine-dev/tools: Is a directory
+
+  Copy files
+Here at this stage
+ERROR: Could not find the path to the appdir
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ rm .config
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ ./tools/configure.sh -l stm32f4discovery:nsh
+./tools/configure.sh: line 26: /workspaces/nuttx-mine-dev/tools: Is a directory
+
+  Copy files
+Here at this stage
+Inside the else stage
+ERROR: Could not find the path to the appdir
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ rm .config
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ ./tools/configure.sh -l stm32f4discovery:nsh
+./tools/configure.sh: line 26: /workspaces/nuttx-mine-dev/tools: Is a directory
+
+  Copy files
+Here at this stage
+Inside the else stage
+/workspaces/nuttx-mine-dev/tools/..
+
+ERROR: Could not find the path to the appdir
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ rm .config
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ ./tools/configure.sh -l stm32f4discovery:nsh
+./tools/configure.sh: line 26: /workspaces/nuttx-mine-dev/tools: Is a directory
+
+  Copy files
+Here at this stage
+Inside the else stage
+top directory
+/workspaces/nuttx-mine-dev/tools/..
+version string
+
+ERROR: Could not find the path to the appdir
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ sudo apt install kconfig-frontends
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+E: Unable to locate package kconfig-frontends
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ sudo apt install python3-kconfiglib
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+E: Unable to locate package python3-kconfiglib
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ git status
+On branch first_build_test
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   tools/configure.sh
+
+no changes added to commit (use "git add" and/or "git commit -a")
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ git commit -am "added some debug points"
+[first_build_test 7ff8eb5710] added some debug points
+ 1 file changed, 11 insertions(+), 2 deletions(-)
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ git status
+On branch first_build_test
+nothing to commit, working tree clean
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
+@piyushpandey013 ➜ /workspaces/nuttx-mine-dev (first_build_test) $ 
