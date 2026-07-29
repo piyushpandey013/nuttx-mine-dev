@@ -22,6 +22,8 @@
 set -e
 
 WD=`test -d ${0%/*} && cd ${0%/*}; pwd`
+#echo `piyush----"${WD}"` 
+echo `"${WD}"`
 TOPDIR="${WD}/.."
 WSDIR=`cd "${TOPDIR}/.." && pwd -P`
 MAKECMD="make"
@@ -296,16 +298,23 @@ if [ -z "${appdir}" ]; then
   fi
 
   # Check for an unversioned apps/ directory
-
+  echo "Here at this stage"
   if [ -d "${TOPDIR}/../apps" ]; then
     appdir="../apps"
+    echo "stage 01"
   elif [ -d "${TOPDIR}/../nuttx-apps" ]; then
     appdir="../nuttx-apps"
+    echo "stage 02"
   elif [ -d "${TOPDIR}/../nuttx-apps.git" ]; then
     appdir="../nuttx-apps.git"
+    echo "stage 03"
   else
     # Check for a versioned apps/ directory
-
+    echo "Inside the else stage"
+    echo "top directory"
+    echo ${TOPDIR}
+    echo "version string"
+    echo ${CONFIG_VERSION_STRING}
     if [ -d "${TOPDIR}/../apps-${CONFIG_VERSION_STRING}" ]; then
       appdir="../apps-${CONFIG_VERSION_STRING}"
     else
